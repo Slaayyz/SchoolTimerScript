@@ -8,7 +8,7 @@ This Python script reads a configuration file with defined time ranges and execu
 - Detects the current time range and executes a command conditionally.
 - Handles errors in file reading and command execution gracefully.
 
-## Configuration File Example (`Config/config.txt`)
+## Configuration File Example (`Config/Exemple.txt`)
 ```text
 08:00-12:00 5 30
 ```
