@@ -1,4 +1,4 @@
-# Time-Based Command Executor
+# School Timer Script
 
 This Python script reads a configuration file with defined time ranges and executes a command if the current time falls within one of those ranges. It also allows optional time offsets (in minutes and seconds) to adjust the end time of the countdown.
 
@@ -20,7 +20,7 @@ In this example:
 
 ## Requirements
 - Python 3.x
-- [tclock](https://lib.rs/crates/clock-tui)` (A utility used for displaying a countdown timer)
+- [tclock](https://lib.rs/crates/clock-tui) (A utility used for displaying a countdown timer)
 
 ## How to Use
 1. Ensure you have at least one configuration file in the `Config` folder. The configuration file should specify time ranges and optional time offsets.
@@ -37,7 +37,7 @@ Using configuration file: config.txt
 Command executed: tclock -c '#FFC0CB' countdown --time 12:05:30
 ```
 
-In this example:
+In this example :
 
 The configuration file specifies a time range of `08:00-12:00` with an optional offset of 5 minutes and 30 seconds.
 If the current time is within this range, the script adds the offset and runs the countdown command until `12:05:30`.
